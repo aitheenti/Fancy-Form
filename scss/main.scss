@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Eater|cursive');
+
+$primary: #42abca;
+
+body{
+  background: $primary;
+  font-family: "Demolition Crack Black";
+  margin: 0;
+}
+
+h1.logo {
+  color: #fff;
+  font-family: 'Demolition Crack Black';
+  font-size: 4em;
+}
+
+#container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: top;
+}
+
+#form-box{
+  background: white;
+  position: relative;
+  width: 700px;
+
+}
